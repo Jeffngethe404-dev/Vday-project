@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Tee 💕</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div id="intro-overlay">
+        <div class="intro-content">
+            <h1>Hey Tee 💕</h1>
+            <p>I made something for you...</p>
+            <button id="enter-btn">Open Your Gift ✨</button>
+        </div>
+    </div>
+
+    <div class="flower orchid" style="top: 10%; left: 5%;"><i class="fas fa-spa"></i></div>
+    <div class="flower rose" style="top: 15%; right: 10%;"><i class="fas fa-heart"></i></div>
+    <div class="flower orchid" style="bottom: 20%; left: 8%;"><i class="fas fa-spa"></i></div>
+    <div class="flower rose" style="bottom: 15%; right: 7%;"><i class="fas fa-heart"></i></div>
+
+    <div class="container">
+        
+        <div class="header">
+            <h1 class="title">Happy Valentines</h1>
+            <p class="subtitle">💕</p>
+        </div>
+
+        <div class="static-music-player">
+            <div class="music-info">
+                <i class="fas fa-music"></i>
+                <span>Now Playing: "In love" by Kid Cudi</span>
+            </div>
+            <audio id="backgroundMusic" loop>
+                <source src="music/In Love.mp3" type="audio/mpeg"> 
+            </audio>
+            <div class="music-controls">
+                <button id="muteBtn" class="music-btn">
+                    <i class="fas fa-volume-up"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="photo-section">
+            <div class="permanent-photo">
+                <img src="img/tee.jpg" 
+                     alt="Photo of Tee"
+                     onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 200 200\'><rect width=\'200\' height=\'200\' fill=\'%23e84393\'/><text x=\'100\' y=\'110\' font-family=\'Arial\' font-size=\'50\' fill=\'white\' text-anchor=\'middle\'>💕</text></svg>'">
+            </div>
+            <p class="photo-label">My Dong Ho💖</p>
+        </div>
+
+        <h2 class="section-title">Things About You</h2>
+        <div class="cards-grid">
+            <div class="info-card">
+                <div class="card-icon"><i class="fab fa-youtube"></i></div>
+                <h3>Korean shows</h3>
+                <p>You enjoy alot of korean shows about romance and you also dabble in anime.</p>
+            </div>
+        <div class="info-card">
+                <div class="card-icon"><i class="fas fa-book"></i></div>
+                <h3>Pages of a Life</h3>
+                <p>You are an open book in who's pages I get lost in over conversation, No topic to big no convo too small. 📚</p>
+            </div>
+
+            <div class="info-card">
+                <div class="card-icon"><i class="fas fa-khanda"></i></div>
+                <h3>KC Pineapple fan</h3>
+                <p>The way you barely make a face as you down a whole quater.✋🏼😂🤚🏼 absolute cinema🍾🥂</p>
+            </div>
+
+            <div class="info-card">
+                <div class="card-icon"><i class="fas fa-palette"></i></div>
+                <h3>Music is an art</h3>
+                <p>You love for CHarlie and Korean music. Also a y2k girlie with your love for old school rnb. super niche</p>
+            </div>
+        </div>
+
+        <div class="story-container">
+            <div id="story-content">
+                </div>
+            
+            <div class="controls">
+                <button id="prev-btn" class="btn" disabled>Back</button>
+                <button id="next-btn" class="btn">Continue</button>
+            </div>
+            
+            <div class="response-buttons" id="response-buttons">
+                <button id="yes-btn" class="btn btn-yes">Yes, Always 💖</button>
+                <button id="no-btn" class="btn btn-no">What happens if I say no?</button>
+            </div>
+        </div>
+
+        <div class="letter-container" id="letter-container">
+            <div class="letter-header">
+                <i class="fas fa-envelope-open-text" style="font-size: 2rem; color: var(--pink-accent);"></i>
+                <h2 class="letter-title">For My Tee</h2>
+            </div>
+            <div class="letter-content">
+                <p>My dearest Tee,</p>
+                <p>In a world that often feels monochrome, you brought the vibrant pink that colors everything beautiful. Just like our story has its twists, but is wonderfully ours.</p>
+                <p>I watch you from a distance get lost in Korean drama shows, the sparkle in your eyes light up when you talk as i notice notice how you get lost in the stories. These little details make you uniquely Tee, and I cherish every single one.</p>
+                <p>From our shared laughs over F1 to getting emotionally vested over memories. Every waking moment with you is special. Even your love for friends (yes, I notice!) makes me smile.</p>
+                <p>This Valentine's, I wished to give somewhat of a glimpse of you from my eyes not a simple question with obvious buttons, but an experience that reflects the depths of my soul and thoughtfulness you bring to everything you love.</p>
+                <p>Will you give me the chance to read the pages of your story, page by page, chapter by chapter, season by season? </p>
+            </div>
+            <div class="letter-signature">
+                <p>With all my heart,</p>
+                <p>Jeff <span class="heart">♥</span></p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Created with love for Tee • 2026</p>
+            <p class="inspiration">Inspired by our shared love for KC Pineapple and aged bread ♥</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
